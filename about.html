@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Service Connect</title>
-    <meta name="description" content="Learn about our mission, values, and the team behind Solutions, Innovation, Guidance and Insight Services.">
+    <title>About Us | Service Connect - Data Analytics & Business Solutions in Georgetown, Guyana</title>
+    <meta name="description" content="Learn about Service Connect's mission and values, providing data analytics and business solutions in Georgetown, Guyana.">
+    <meta name="keywords" content="Service Connect, data analytics, business solutions, Georgetown, Guyana, mission, values, team">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -21,6 +22,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html" class="active">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
                 <li><a href="index.html#services">Services</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
@@ -32,6 +34,7 @@
             <div class="container">
                 <h1>About Us</h1>
                 <p class="lead">Transforming businesses through data-driven solutions and innovative strategies.</p>
+                <p>Learn more about our <a href="index.html#services">services</a> and how we can help your business.</p>
             </div>
         </section>
 
@@ -106,13 +109,12 @@
         <section class="about-cta">
             <div class="container">
                 <h2>Ready to Transform Your Business?</h2>
-                <p>Let's work together to unlock your organization's full potential.</p>
+                <p>Let's work together to unlock your organization's full potential. Check out our <a href="index.html#contact">contact page</a> to get in touch.</p>
                 <a href="index.html#contact" class="btn btn-primary">Get in Touch</a>
             </div>
         </section>
     </main>
 
-    <!-- Include the same footer as index.html -->
     <footer>
        <div class="footer-content">
             <div class="footer-section">
@@ -154,6 +156,29 @@
             <div class="footer-bottom-links">
             </div>
         </div>
-</footer>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Service Connect",
+        "url": "https://www.serviceconnect.cc",
+        "logo": "https://www.serviceconnect.cc/assets/images/logo.png",
+        "description": "Service Connect delivers data-driven solutions to transform your business challenges into opportunities.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Georgetown",
+            "addressCountry": "Guyana"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+5926566291",
+            "contactType": "Customer Service",
+            "areaServed": "GY",
+            "availableLanguage": "English"
+        }
+    }
+    </script>
 </body>
 </html> 
