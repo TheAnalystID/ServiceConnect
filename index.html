@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Connect | Data Analytics & Business Solutions</title>
-    <meta name="description" content="We deliver clarity, growth, and measurable results to our clients through our expertise in data analytics and innovative business solutions. Explore our services and case studies.">
-    <meta name="keywords" content="data analytics, business solutions, workforce management, financial planning, process improvement, training and upskilling">
+    <title>Service Connect | Data Analytics & Business Solutions in Georgetown, Guyana</title>
+    <meta name="description" content="We deliver clarity, growth, and measurable results to our clients through our expertise in data analytics and innovative business solutions in Georgetown, Guyana.">
+    <meta name="keywords" content="data analytics, business solutions, Georgetown, Guyana, workforce management, financial planning, process improvement, training and upskilling">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -21,6 +21,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
                 <li><a href="#services">Offerings</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -95,7 +96,7 @@
                         <li>Spot inefficiencies and areas for improvement</li>
                         <li>Apply structured methods to streamline workflows</li>
                         <li>Develop ongoing strategies for optimization</li>
-            </ul>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -122,66 +123,73 @@
                     </div>
                 </div>
 
-                <form id="contact-form" class="contact-form" novalidate>
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required 
-                               pattern="[A-Za-z\s]{2,}"
-                               title="Please enter a valid name (minimum 2 characters, letters only)">
-                        <span class="error-message"></span>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                        <span class="error-message"></span>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="phone">Phone (optional):</label>
-                        <input type="tel" id="phone" name="phone" 
-                               pattern="[0-9\-\+\s\(\)]{10,}"
-                               title="Please enter a valid phone number">
-                        <span class="error-message"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="subject">Subject:</label>
-                        <select id="subject" name="subject" required>
-                            <option value="">Select a subject</option>
-                            <option value="general">General Inquiry</option>
-                            <option value="services">Services Information</option>
-                            <option value="consultation">Request Consultation</option>
-                            <option value="support">Technical Support</option>
-                        </select>
-                        <span class="error-message"></span>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" required 
-                                  minlength="10"
-                                  title="Please enter a message (minimum 10 characters)"></textarea>
-                        <span class="error-message"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="checkbox-label">
-                            <input type="checkbox" name="privacy" required>
-                            I agree to the <a href="#">Privacy Policy</a> and consent to being contacted about my inquiry
-                        </label>
-                        <span class="error-message"></span>
-                    </div>
-                    
-                    <div class="form-submit">
-                        <button type="submit" class="btn btn-primary">
-                            <span class="button-text">Send Message</span>
-                            <span class="button-loader"></span>
-                        </button>
-                    </div>
-
-                    <div class="form-message"></div>
-                </form>
+                <!-- Zoho Form Integration -->
+                <div class="zoho-form-container">
+                    <form action='https://forms.zohopublic.com/owenapril47gm1/form/ContactForm/formperma/MqppYLS3YgmAb7p0s7fjAhthxmJax_cgFMXVLq0JxYI/htmlRecords/submit' name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();' accept-charset='UTF-8' enctype='multipart/form-data' id='form'>
+                        <input type="hidden" name="zf_referrer_name" value="">
+                        <input type="hidden" name="zf_redirect_url" value="">
+                        <input type="hidden" name="zc_gad" value="">
+                        <div class="zf-templateWrapper">
+                            <ul>
+                                <li class="zf-tempFrmWrapper zf-name zf-namelarge">
+                                    <label class="zf-labelName">Name <em class="zf-important">*</em></label>
+                                    <div class="zf-tempContDiv zf-twoType">
+                                        <span>
+                                            <input type="text" maxlength="255" name="Name_First" placeholder="First Name" required />
+                                        </span>
+                                        <span>
+                                            <input type="text" maxlength="255" name="Name_Last" placeholder="Last Name" required />
+                                        </span>
+                                        <div class="zf-clearBoth"></div>
+                                    </div>
+                                </li>
+                                <li class="zf-tempFrmWrapper zf-large">
+                                    <label class="zf-labelName">Email <em class="zf-important">*</em></label>
+                                    <div class="zf-tempContDiv">
+                                        <span>
+                                            <input type="email" maxlength="255" name="Email" required placeholder="Email" />
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="zf-tempFrmWrapper zf-large">
+                                    <label class="zf-labelName">Phone</label>
+                                    <div class="zf-tempContDiv zf-phonefld">
+                                        <div class="zf-phwrapper zf-phNumber">
+                                            <span>
+                                                <input type="text" name="PhoneNumber_countrycode" maxlength="20" placeholder="Phone Number" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="zf-tempFrmWrapper zf-large">
+                                    <label class="zf-labelName">Subject</label>
+                                    <div class="zf-tempContDiv">
+                                        <select class="zf-form-sBox" name="Dropdown" required>
+                                            <option selected="true" value="-Select-">Subject</option>
+                                            <option value="General Inquiry">General Inquiry</option>
+                                            <option value="Services Information">Services Information</option>
+                                            <option value="Request Consultation">Request Consultation</option>
+                                            <option value="Technical Support">Technical Support</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li class="zf-tempFrmWrapper zf-large">
+                                    <label class="zf-labelName">Message <em class="zf-important">*</em></label>
+                                    <div class="zf-tempContDiv">
+                                        <span>
+                                            <textarea name="MultiLine" required placeholder="Your message here..."></textarea>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="zf-fmFooter">
+                                    <button class="zf-submitColor">Submit</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
         
@@ -235,5 +243,19 @@
             </div>
         </div>
     </footer>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Service Connect",
+        "url": "https://www.serviceconnect.cc",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.serviceconnect.cc/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
 </body>
 </html>
